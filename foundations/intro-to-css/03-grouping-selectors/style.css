@@ -1,0 +1,16 @@
+/* attributes unique to firstElement class */
+.firstElement {
+    background-color: black;
+    color:white;
+}
+
+/* attributes unique to secondElement class*/
+.secondElement {
+    background-color: yellow;
+}
+
+/* use this grouping to add attributes common to both firstElement and secondElement classes*/
+.firstElement, .secondElement {
+    font-size: 28px;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
